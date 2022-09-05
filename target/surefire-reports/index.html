@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\GSPLK-LPA99\Desktop\Appium\NativeApp\testng_smoke.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">16 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.NativeApp.TestCases.JoinFormSuccessfullSignUp" hash-for-method="SuccessfullSignUpinjoinforms(8877665544, renberg@gmail.com, Ren, Berg)">SuccessfullSignUpinjoinforms(8877665544, renberg@gmail.com, Ren, Berg)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.NativeApp.TestCases.Rejoinform" hash-for-method="SuccessfullSignUpinrejoinform(8877665544)">SuccessfullSignUpinrejoinform(8877665544)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.NativeApp.TestCases.AppSuccessfullLoginWithValidPin" hash-for-method="loginWithValidPininpintrypage(8877665544)">loginWithValidPininpintrypage(8877665544)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.NativeApp.TestCases.LoginPageSuccessfulLogIn" hash-for-method="successLoginwithvalidnumber(8877665544)">successLoginwithvalidnumber(8877665544)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.NativeApp.TestCases.JoinFormSuccessfullSignUp</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SuccessfullSignUpinjoinforms(8877665544, renberg@gmail.com, Ren, Berg)">
+                  </a> <!-- SuccessfullSignUpinjoinforms(8877665544, renberg@gmail.com, Ren, Berg) -->
+                  <span class="method-name">SuccessfullSignUpinjoinforms</span>
+                  <span class="parameters">(8877665544, renberg@gmail.com, Ren, Berg)</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidElementStateException: Cannot set the element to &apos;renberg@gmail.com&apos;. Did you interact with the correct element?
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;DESKTOP-2RF84QH&apos;, ip: &apos;192.168.34.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_341&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a6d4929a-8e38-485b-be35-3b1aec69ae7a, sendKeysToElement {id=00000000-0000-0312-ffff-ffff0000014b, value=[Ljava.lang.CharSequence;@1da1380b}]
+Capabilities {appium:app: C:\Users\GSPLK-LPA99\Deskto..., appium:appPackage: com.springbig.theHelloClub, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\GSPLK-LPA99\Deskto..., automationName: UIAutomator2, deviceName: xiaomi Redmi Note 8 Pro, platformName: android}, appium:deviceApiLevel: 30, appium:deviceManufacturer: Xiaomi, appium:deviceModel: Redmi Note 8 Pro, appium:deviceName: v8kjhmcqaaqcuovk, appium:deviceScreenDensity: 440, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: v8kjhmcqaaqcuovk, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.75, appium:platformVersion: 11, appium:statBarHeight: 76, appium:takesScreenshot: true, appium:viewportRect: {height: 2058, left: 0, top: 76, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (a6d4929a-8e38-485b-be35-3b1aec69ae7a)] -&gt; xpath: (//android.widget.EditText)[2]]
+Session ID: a6d4929a-8e38-485b-be35-3b1aec69ae7a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:113)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy14.sendKeys(Unknown Source)
+	at com.NativeApp.ElementsAction.JoinForm.setEmail(JoinForm.java:81)
+	at com.NativeApp.TestCases.JoinFormSuccessfullSignUp.SuccessfullSignUpinjoinforms(JoinFormSuccessfullSignUp.java:18)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.NativeApp.TestCases.LoginPageSuccessfulLogIn</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="successLoginwithvalidnumber(8877665544)">
+                  </a> <!-- successLoginwithvalidnumber(8877665544) -->
+                  <span class="method-name">successLoginwithvalidnumber</span>
+                  <span class="parameters">(8877665544)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.NativeApp.TestCases.AppSuccessfullLoginWithValidPin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidPininpintrypage(8877665544)">
+                  </a> <!-- loginWithValidPininpintrypage(8877665544) -->
+                  <span class="method-name">loginWithValidPininpintrypage</span>
+                  <span class="parameters">(8877665544)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.NativeApp.TestCases.Rejoinform</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SuccessfullSignUpinrejoinform(8877665544)">
+                  </a> <!-- SuccessfullSignUpinrejoinform(8877665544) -->
+                  <span class="method-name">SuccessfullSignUpinrejoinform</span>
+                  <span class="parameters">(8877665544)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\GSPLK-LPA99\Desktop\Appium\NativeApp\testng_smoke.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.NativeApp.utils.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;smoke&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;1.ensure user able to see the app logo in login page&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.LoginPageLogoPresence&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 1.ensure user able to see the app logo in login page --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;2.ensure user able to see the please enter your number text in login page&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.LoginPageNumberTagPresence&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 2.ensure user able to see the please enter your number text in login page --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;3.ensure user able to see the validation if click on login button without enter the phone number&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.LoginPageFieldRequiredMsg&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 3.ensure user able to see the validation if click on login button without enter the phone number --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;4.ensure user able to see the validation message if click on login button with enter invalid phone number&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.LoginPageInvalidNumber&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 4.ensure user able to see the validation message if click on login button with enter invalid phone number --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;5.ensure user able to login with enter valid phone number or login button working fine with valid phone number&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.LoginPageSuccessfulLogIn&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 5.ensure user able to login with enter valid phone number or login button working fine with valid phone number --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;6.ensure phone number and pin autoclear is working fine when click on pinentrypage cancell button&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.PinEntryPageAutoclear&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 6.ensure phone number and pin autoclear is working fine when click on pinentrypage cancell button --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;7.ensure user able see temperary pin text in pin entry page&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.PinEntryPageTemPinPresence&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 7.ensure user able see temperary pin text in pin entry page --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;8.ensure user able see enterpin text in pin entry page&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.PinEntryEntrePinTextPresence&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 8.ensure user able see enterpin text in pin entry page --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;9.ensure user able see the validation message if we try to login without entry the pin&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.PinEntryPageFieldValidation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 9.ensure user able see the validation message if we try to login without entry the pin --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;10.ensure user able see the validation message if we try to login with invalid or expired pin&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.PinEntryPageInvalidPinValidationMsg&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 10.ensure user able see the validation message if we try to login with invalid or expired pin --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;11.ensure user able see app logo in pin entry page&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.PinEntryPageLogoPresence&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 11.ensure user able see app logo in pin entry page --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;12.ensure user able login with entry the valid pin&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.AppSuccessfullLoginWithValidPin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 12.ensure user able login with entry the valid pin --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;13.ensure user able select any merchant in merchant list page&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.MerchantListSelectMerchant&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 13.ensure user able select any merchant in merchant list page --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;14.ensure user able see the same number in joinform phone number box which one entered in login page&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.JoinFormPhoneNum&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 14.ensure user able see the same number in joinform phone number box which one entered in login page --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;15.ensure user able sigup through joinform by entring all required fields&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.JoinFormSuccessfullSignUp&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 15.ensure user able sigup through joinform by entring all required fields --&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;16.ensure user able sigup through rejoinform with already registered number&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.NativeApp.TestCases.Rejoinform&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- 16.ensure user able sigup through rejoinform with already registered number --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">1.ensure user able to see the app logo in login page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">2.ensure user able to see the please enter your number text in login page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">3.ensure user able to see the validation if click on login button without enter the phone number (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">4.ensure user able to see the validation message if click on login button with enter invalid phone number (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">5.ensure user able to login with enter valid phone number or login button working fine with valid phone number (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">6.ensure phone number and pin autoclear is working fine when click on pinentrypage cancell button (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">7.ensure user able see temperary pin text in pin entry page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">8.ensure user able see enterpin text in pin entry page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">9.ensure user able see the validation message if we try to login without entry the pin (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">10.ensure user able see the validation message if we try to login with invalid or expired pin (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">11.ensure user able see app logo in pin entry page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">12.ensure user able login with entry the valid pin (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">13.ensure user able select any merchant in merchant list page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">14.ensure user able see the same number in joinform phone number box which one entered in login page (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">15.ensure user able sigup through joinform by entring all required fields (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">16.ensure user able sigup through rejoinform with already registered number (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">SuccessfullSignUpinjoinforms</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SuccessfullSignUpinrejoinform</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginWithValidPininpintrypage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">successLoginwithvalidnumber</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SuccessfullSignUpinrejoinform')
+data.setCell(0, 2, 'com.NativeApp.TestCases.Rejoinform')
+data.setCell(0, 3, 64885);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SuccessfullSignUpinjoinforms')
+data.setCell(1, 2, 'com.NativeApp.TestCases.JoinFormSuccessfullSignUp')
+data.setCell(1, 3, 27749);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginWithValidPininpintrypage')
+data.setCell(2, 2, 'com.NativeApp.TestCases.AppSuccessfullLoginWithValidPin')
+data.setCell(2, 3, 22656);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'successLoginwithvalidnumber')
+data.setCell(3, 2, 'com.NativeApp.TestCases.LoginPageSuccessfulLogIn')
+data.setCell(3, 3, 3041);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">12 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.NativeApp.TestCases.PinEntryPageAutoclear</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">autoClearTestofphonenumandpin</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.NativeApp.TestCases.PinEntryPageFieldValidation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">fieldValidationmsginpinentrypage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.NativeApp.TestCases.JoinFormPhoneNum</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">phoneNumCheckinjionform</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.NativeApp.TestCases.LoginPageFieldRequiredMsg</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">FieldRequiredMsginloginpage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.NativeApp.TestCases.PinEntryPageInvalidPinValidationMsg</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">invalidPinValidationMsginpinentrypage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.NativeApp.TestCases.LoginPageLogoPresence</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">logoPresenceinloginpage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.NativeApp.TestCases.LoginPageInvalidNumber</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">invalidnumbervalidationmessage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.NativeApp.TestCases.LoginPageNumberTagPresence</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">NumberTagPresenceinloginpage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.NativeApp.TestCases.MerchantListSelectMerchant</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">selectMerchantinmerchantlistpage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.NativeApp.TestCases.PinEntryPageTemPinPresence</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">temPinmsgPresenceinpinentrypage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.NativeApp.TestCases.PinEntryPageLogoPresence</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">logoPresenceinpinentrypages</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.NativeApp.TestCases.PinEntryEntrePinTextPresence</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">entrePinTextPresenceinoinentrypage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.LoginPageLogoPresence</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">15551 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.LoginPageNumberTagPresence</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">18116 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">28559 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.LoginPageFieldRequiredMsg</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">28897 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">37764 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.LoginPageInvalidNumber</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">38112 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">46842 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.LoginPageSuccessfulLogIn</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">47176 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">successLoginwithvalidnumber(8877665544)</span>
+                <span class="method-start">55676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">58733 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.PinEntryPageAutoclear</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">59268 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">67586 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.PinEntryPageTemPinPresence</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">68434 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">76447 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.PinEntryEntrePinTextPresence</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">77026 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">85207 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.PinEntryPageFieldValidation</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">85526 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">94016 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.PinEntryPageInvalidPinValidationMsg</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">94326 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">102820 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.PinEntryPageLogoPresence</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">103155 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">110674 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.AppSuccessfullLoginWithValidPin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">111006 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidPininpintrypage(8877665544)</span>
+                <span class="method-start">119504 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">142161 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.MerchantListSelectMerchant</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">142727 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">151642 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.JoinFormPhoneNum</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">152422 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">161524 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.JoinFormSuccessfullSignUp</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">162165 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SuccessfullSignUpinjoinforms(8877665544, renberg@gmail.com, Ren, Berg)</span>
+                <span class="method-start">171570 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">200837 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.NativeApp.TestCases.Rejoinform</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">ConfigureAppium</span>
+                <span class="method-start">201458 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">SuccessfullSignUpinrejoinform(8877665544)</span>
+                <span class="method-start">210411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">275297 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

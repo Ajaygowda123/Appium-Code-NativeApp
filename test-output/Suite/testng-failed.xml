@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.NativeApp.utils.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="2.ensure user able to see the please enter your number text in login page(failed)">
+    <classes>
+      <class name="com.NativeApp.TestCases.LoginPageNumberTagPresence">
+        <methods>
+          <include name="ConfigureAppium"/>
+          <include name="NumberTagPresenceinloginpage"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.NativeApp.TestCases.LoginPageNumberTagPresence -->
+    </classes>
+  </test> <!-- 2.ensure user able to see the please enter your number text in login page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

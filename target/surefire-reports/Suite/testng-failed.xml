@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.NativeApp.utils.Listeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="15.ensure user able sigup through joinform by entring all required fields(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.NativeApp.TestCases.JoinFormSuccessfullSignUp">
+        <methods>
+          <include name="SuccessfullSignUpinjoinforms" invocation-numbers="0"/>
+          <include name="ConfigureAppium"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.NativeApp.TestCases.JoinFormSuccessfullSignUp -->
+    </classes>
+  </test> <!-- 15.ensure user able sigup through joinform by entring all required fields(failed) -->
+</suite> <!-- Failed suite [Suite] -->

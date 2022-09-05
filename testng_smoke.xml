@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<groups>
+<run>
+<include name="smoke"/>
+</run>
+</groups>
+
+<listeners>
+<listener class-name="com.NativeApp.utils.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="1.ensure user able to see the app logo in login page">
+    <classes>
+      <class name="com.NativeApp.TestCases.LoginPageLogoPresence"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="2.ensure user able to see the please enter your number text in login page">
+    <classes>
+      <class name="com.NativeApp.TestCases.LoginPageNumberTagPresence"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="3.ensure user able to see the validation if click on login button without enter the phone number">
+    <classes>
+      <class name="com.NativeApp.TestCases.LoginPageFieldRequiredMsg"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="4.ensure user able to see the validation message if click on login button with enter invalid phone number">
+    <classes>
+      <class name="com.NativeApp.TestCases.LoginPageInvalidNumber"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="5.ensure user able to login with enter valid phone number or login button working fine with valid phone number">
+    <classes>
+       <class name="com.NativeApp.TestCases.LoginPageSuccessfulLogIn"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="6.ensure phone number and pin autoclear is working fine when click on pinentrypage cancell button">
+    <classes>
+      <class name="com.NativeApp.TestCases.PinEntryPageAutoclear"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="7.ensure user able see temperary pin text in pin entry page">
+    <classes>
+      <class name="com.NativeApp.TestCases.PinEntryPageTemPinPresence"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="8.ensure user able see enterpin text in pin entry page">
+    <classes>
+     <class name="com.NativeApp.TestCases.PinEntryEntrePinTextPresence"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="9.ensure user able see the validation message if we try to login without entry the pin">
+    <classes>
+     <class name="com.NativeApp.TestCases.PinEntryPageFieldValidation"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="10.ensure user able see the validation message if we try to login with invalid or expired pin">
+    <classes>
+    <class name="com.NativeApp.TestCases.PinEntryPageInvalidPinValidationMsg"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="11.ensure user able see app logo in pin entry page">
+    <classes>
+    <class name="com.NativeApp.TestCases.PinEntryPageLogoPresence"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="12.ensure user able login with entry the valid pin">
+    <classes>
+    <class name="com.NativeApp.TestCases.AppSuccessfullLoginWithValidPin"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="13.ensure user able select any merchant in merchant list page">
+    <classes>
+    <class name="com.NativeApp.TestCases.MerchantListSelectMerchant"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="14.ensure user able see the same number in joinform phone number box which one entered in login page">
+    <classes>
+    <class name="com.NativeApp.TestCases.JoinFormPhoneNum"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="15.ensure user able sigup through joinform by entring all required fields">
+    <classes>
+    <class name="com.NativeApp.TestCases.JoinFormSuccessfullSignUp"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="16.ensure user able sigup through rejoinform with already registered number">
+    <classes>
+    <class name="com.NativeApp.TestCases.Rejoinform"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
