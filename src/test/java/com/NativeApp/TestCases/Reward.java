@@ -26,8 +26,8 @@ public class Reward extends BasePage {
 		merchantpage.clickOnMerchant1();
 		Thread.sleep(10000);
 		rewardpage.rewardheading();
-		//rewardpage.pointsredeemabletext();
-		//rewardpage.rewardpointtext();
+		rewardpage.pointsredeemabletext();
+		rewardpage.rewardpointtext();
 		rewardpage.redeemthereward();
 		rewardpage.redeembutton();
 		rewardpage.returnbutton();
