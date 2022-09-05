@@ -26,20 +26,6 @@ public class JoinFormSuccessfullSignUp extends BasePage {
 		joinform.pressok();
 		Thread.sleep(10000);
 		}
-		else if(mail1.contains(mail)) {
-			joinform.setEmail(mail);
-			joinform.setFirstName(firstname);
-			joinform.setSecondName(secondname);
-			joinform.setDOB();
-			joinform.hippaselect();
-			joinform.signature();
-			joinform.signup();
-			Thread.sleep(10000);
-			joinform.alertmsg();
-			joinform.pressok();
-			Thread.sleep(10000);
-		}
-		
 		else{
 			joinform.setEmail(mail);
 			joinform.setFirstName(firstname);
