@@ -31,6 +31,7 @@ public class Reward extends BasePage {
 		rewardpage.redeemthereward();
 		rewardpage.redeembutton();
 		rewardpage.returnbutton();
+		rewardpage.checkinpoints();
 		String afterpoints=rewardpage.checkinpoints();
 		int aftercheckinpoints=Integer.parseInt(afterpoints); 
 		int beforecheckinpoints=aftercheckinpoints+5;
